@@ -19,7 +19,7 @@
         </center>
         <br*2>
             <hr>
-            <p>
+            <p id="paragraph">
                 Bruno Mars was born on October 8, 1985. He was born in Honolulu, Hawaii and is 38 years old. Bruno Mars
                 has 5 siblings! His real name is Peter Gene Hernandez; Bruno Mars is his stage name! Growing up he
                 wanted to be a solo music artist and did everything he could to make that happen! Bruno Mars had
@@ -39,7 +39,7 @@
                         <th> Songs</th>
                     </tr>
                     <tr>
-                        <td> December 3rd, 2012</td>
+                        <td> February 17th, 2024</td>
                         <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0"
                                 height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;"
                                 sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
@@ -47,7 +47,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td> September 28th, 2010</td>
+                        <td> March 24th, 2024</td>
                         <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0"
                                 height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;"
                                 sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
@@ -55,15 +55,76 @@
                         </td>
                     </tr>
                     <tr>
-                        <td> October 1st, 2012 </td>
+                        <td> May 7th, 2024 </td>
                         <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0"
                                 height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;"
                                 sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
                                 src="https://embed.music.apple.com/us/album/locked-out-of-heaven/581806371?i=581806437"></iframe>
                         </td>
-                     
+                        </tr>
+                    <tr>
+                        <td> Aug 18th, 2024 </td>
+                        <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/talking-to-the-moon/576654788?i=576655100"></iframe>
+                        </td>
+                        <tr>
+                        <td> November 11th, 2024 </td>
+                        <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/thats-what-i-like/1161503945?i=1161504043"></iframe>
+                        </td>
+                        </tr>
+                        <hr>
+
                 </table>
             </h1>
+            <hr>
+            <h1>Want to see Bruno Mars?</h1>
+            <h2><b>Buy Concert Tickets!</b></h2>
+            <form action="index.php" method="POST">
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Username" minlength="6" maxlength="15" required> <br><br>
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" minlength="6" maxlength="15" required><br><br>
+        
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Please enter your email."><br><br>
+        
+                <label for="phone">Phone #:</label>
+                <input type="phone" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br><br>
+        
+                <label for="B-day">Birthdate:</label>
+                <input type="date" id="bday"><br><br>
+        
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" min="0" max="99" value="1"><br><br>
+        
+                <label for="title">Title:</label>
+        
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="Mr." value="Mr." name="title">
+                <label for="Ms.">Ms.</label>
+                <input type="radio" id="Ms." value="Ms." name="title">
+                <br><br>
+        
+                <label for="payment">Payment</label>
+                <select id="payment">
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="giftcard">GiftCard</option>
+                </select><br><br>
+        
+                <label for="subscribe">Subscribe:</label>
+                <input type="checkbox" id="subscribe."><br><br>
+        
+                <label for="comment">Comment:</label>
+                <textarea id="comment" rows="3" cols="25"></textarea><br><br>
+                
+                <label for="file">File:</label>
+                <input type="file"> <br><br>
+        
+                <input type="reset"><br>
+                <input type="submit">
 
 </body>
 
